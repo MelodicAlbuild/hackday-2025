@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
-import scrollbarHide from 'tailwind-scrollbar-hide'
+import scrollbarHide from "tailwind-scrollbar-hide";
 
-export default {
+const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,9 +13,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        franklinCondensed: ["Franklin Gothic Condensed", "sans-serif"],
+        franklinGothic: ["Franklin Gothic", "sans-serif"],
+      },
     },
   },
-  plugins: [
-    scrollbarHide
-  ],
-} satisfies Config;
+  plugins: [scrollbarHide],
+};
+
+export default config;

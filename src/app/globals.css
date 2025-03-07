@@ -37,7 +37,7 @@ body {
 }
 
 .hackday-logo-filter {
-  filter: drop-shadow(0 0 15px #ff000052) drop-shadow(0 0 30px #0000ff4b);
+  filter: drop-shadow(0 0 15px #ff0000) drop-shadow(0 0 30px #0000ff);
 }
 
 .building-glow-filter {
@@ -53,3 +53,24 @@ body {
   mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%);
   -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%);
 }
+
+nav a {
+  font-size: 1.25rem; /* Equivalent to text-lg */
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: 'Franklin Gothic Condensed';
+  src: url('/fonts/FranklinGothicCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('/fonts/FranklinGothic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
