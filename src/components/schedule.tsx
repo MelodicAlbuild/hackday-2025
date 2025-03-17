@@ -21,7 +21,7 @@ export default function Schedule() {
             {day["time-end"] != "" ? <p>Ends At: {day["time-end"]}</p> : <></>}
 
             {day["children"] != undefined ? (
-              <div className="flex justify-center mt-4">
+              <div className="flex justify-center mt-4 md:pb-4 sm:pb-2">
                 <div className="grid grid-cols-1 gap-4 w-[70%]">
                   {day["children"].map((event) => (
                     <div
