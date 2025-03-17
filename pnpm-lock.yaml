@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.17.19
+      '@types/react':
+        specifier: ^19
+        version: 19.0.10
       lucide-react:
         specifier: ^0.477.0
         version: 0.477.0(react@19.0.0)
@@ -26,16 +32,13 @@ importers:
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
+      typescript:
+        specifier: ^5
+        version: 5.7.3
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3
         version: 3.3.0
-      '@types/node':
-        specifier: ^20
-        version: 20.17.19
-      '@types/react':
-        specifier: ^19
-        version: 19.0.10
       '@types/react-dom':
         specifier: ^19
         version: 19.0.4(@types/react@19.0.10)
@@ -51,9 +54,6 @@ importers:
       postcss:
         specifier: ^8.5.3
         version: 8.5.3
-      typescript:
-        specifier: ^5
-        version: 5.7.3
 
 packages:
 
