@@ -7,7 +7,7 @@ export default function Schedule() {
   const size = useWindowSize();
 
   return (
-    <div className="grid grid-cols-3 gap-4 w-[40%]">
+    <div className="grid grid-cols-3 gap-4 md:w-[40%] sm:w-[70%]">
       {scheduleData.map((day, index) => {
         let reval = (
           <div
