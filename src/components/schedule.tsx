@@ -23,7 +23,7 @@ export default function Schedule() {
             {day["children"] != undefined ? (
               <div className="flex justify-center mt-4">
                 <div className="grid grid-cols-1 gap-4 w-[70%]">
-                  {day["children"].map((event, index) => (
+                  {day["children"].map((event) => (
                     <div
                       className="text-white xl:text-2xl lg:text-xl border rounded-lg p-2"
                       key={event.id}
