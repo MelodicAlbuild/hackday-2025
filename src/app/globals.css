@@ -32,14 +32,6 @@ body {
   background: rgba(28, 0, 59, 0.1)
 }
 
-.logo-filter {
-  filter: drop-shadow(0 0 15px #ff0000) drop-shadow(0 0 30px #0000ff);
-}
-
-.hackday-logo-filter {
-  filter: drop-shadow(0 0 15px #ff0000) drop-shadow(0 0 30px #0000ff);
-}
-
 .building-glow-filter {
   filter: drop-shadow(0 0 50px #ff3c00) drop-shadow(0 0 80px rgb(255, 0, 0));
 }

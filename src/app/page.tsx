@@ -50,8 +50,8 @@ export default function Home() {
               { name: "FAQ", href: "#faq" },
               { name: "Contact", href: "#contact" },
             ].map((item) => (
-              <a key={item.name} href={item.href} className="font-franklinGothic text-xl font-normal hover:text-gray-300 transition">
-                {item.name}
+              <a key={item.name} href={item.href} className="font-franklinGothic text-white text-xl font-normal hover:text-purple-300 transition" onClick={() => setIsOpen(false)}>
+                {item.name} 
               </a>
             ))}
           </div>
@@ -65,14 +65,14 @@ export default function Home() {
         <Image
           src="/Logo.svg"
           alt="Main Logo"
-          className="absolute bottom-[-400px] sm:bottom-[-400px] md:bottom-[-450px] w-[50%] sm:w-[60%] max-w-[250px] sm:max-w-[300px] md:max-w-[400px] h-auto z-50 logo-filter"
+          className="absolute bottom-[-400px] sm:bottom-[-400px] md:bottom-[-450px] w-[50%] sm:w-[60%] max-w-[250px] sm:max-w-[300px] md:max-w-[400px] h-auto z-50"
           width={402}
           height={439}
         />
         <Image
           src="/HackDayLogo.svg"
           alt="Hack Day Logo"
-          className="absolute bottom-[-460px] sm:bottom-[-460px] md:bottom-[-560px] w-[50%] sm:w-[60%] max-w-[250px] sm:max-w-[300px] md:max-w-[400px] h-auto z-50 hackday-logo-filter"
+          className="absolute bottom-[-460px] sm:bottom-[-460px] md:bottom-[-560px] w-[50%] sm:w-[60%] max-w-[250px] sm:max-w-[300px] md:max-w-[400px] h-auto z-50"
           width={418}
           height={113}
         />
