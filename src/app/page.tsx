@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className="scrollbar-hide bg-gradient-to-t from-neutral-900 via-blue-900 to-pink-800 min-h-screen">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 w-full z-[100] bg-gradient-to-r from-purple-950 via-blue-900 to-purple-950 px-[15px] text-center fancy-shadow md:h-16">
-        <div className="flex items-center justify-between h-full px-5 md:px-20">
+      <nav className="fixed top-0 left-0 w-full z-[100] bg-gradient-to-r from-purple-950 via-blue-900 to-purple-950 px-[15px] md:px-[5px] text-center fancy-shadow md:h-16">
+        <div className="flex items-center justify-between h-full md:px-5 px-20">
           <div className="flex items-center">
             <Image
               src="/Logo.svg"
@@ -23,7 +23,7 @@ export default function Home() {
             />
           </div>
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-24 justify-center w-full">
+          <div className="hidden md:flex xl:space-x-24 lg:space-x-10 md:space-x-5 justify-center w-full">
             {[
               { name: "Home", href: "#" },
               { name: "Apply", href: "#apply" },
@@ -36,7 +36,7 @@ export default function Home() {
               <a
                 key={item.name}
                 href={item.href}
-                className="font-franklinGothic text-2xl font-normal hover:text-purple-300 transition"
+                className="font-franklinGothic lg:text-2xl md:text-lg font-normal hover:text-purple-300 transition shrink"
               >
                 {item.name}
               </a>
