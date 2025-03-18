@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "label": "How many people can be on a team?",
+        "content": "HackDay Teams consist of three members per team. You can either apply with a team, or apply without a team and get matched with one for the event."
+    },
+    {
+        "id": 2,
+        "label": "How long is the hacking timeframe?",
+        "content": "Hacking begins at 11:00 AM and ends at 6:00 PM. You will have 7 hours to work on your project."
+    },
+    {
+        "id": 3,
+        "label": "Will there be food?",
+        "content": "We will provide Lunch and Dinner, times are available on the schedule above."
+    },
+    {
+        "id": 4,
+        "label": "Where is the event?",
+        "content": "The event is being held at "
+    },
+    {
+        "id": 5,
+        "label": "",
+        "content": ""
+    }
+]

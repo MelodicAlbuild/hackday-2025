@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import Schedule from "@/components/schedule";
+import Faq from "@/components/faq";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -172,6 +173,21 @@ export default function Home() {
         <section id="about" className="scroll-mt-16 pt-10 mx-auto p-[50px]">
           <h2 className="text-5xl font-bold">Meet the Team</h2>
           <p className="text-2xl mt-4">HackUTA Team Information</p>
+        </section>
+        <section id="faq" className="py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col justify-center items-center gap-x-16 gap-y-5 xl:gap-28 lg:flex-row lg:justify-between max-lg:max-w-2xl mx-auto max-w-full w-[70%]">
+              <div className="w-full">
+                <h2 className="text-5xl font-bold mb-2">FAQ</h2>
+                <div
+                  className="accordion-group"
+                  data-accordion="default-accordion"
+                >
+                  <Faq />
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </div>
