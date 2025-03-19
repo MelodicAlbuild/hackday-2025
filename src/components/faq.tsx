@@ -9,7 +9,7 @@ export default function Faq() {
           id="basic-heading-two-with-arrow-always-open"
           key={faq.id}
         >
-          <div className="group inline-flex items-center justify-between font-normal text-xl leading-8 text-white w-full transition duration-500 hover:text-indigo-600">
+          <div className="group inline-flex items-center justify-between font-normal text-2xl leading-8 text-white w-full transition duration-500 hover:text-indigo-600">
             <h5>{faq.label}</h5>
             <svg
               className="text-white transition duration-500 group-hover:text-indigo-600 accordion-active:text-indigo-600 accordion-active:rotate-180"
@@ -33,7 +33,7 @@ export default function Faq() {
             className="accordion-content w-full px-0 overflow-hidden pr-4"
             aria-labelledby="basic-heading-two-with-arrow-always-open"
           >
-            <p className="text-base text-white font-normal">{faq.content}</p>
+            <p className="font-franklinGothic text-base text-white font-normal text-xl text-left">{faq.content}</p>
           </div>
         </div>
       ))}

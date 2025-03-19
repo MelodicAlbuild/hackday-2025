@@ -133,10 +133,21 @@ export default function Home() {
             href="https://docs.google.com/forms/d/e/1FAIpQLScBIrfcTsXM32cx4RX1HQItdzIkzVIVj57EL1k5caWSw_btdA/viewform?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative px-8 py-3 text-2xl font-semibold text-white rounded-full transition duration-300
+            className="font-franklinGothic relative px-8 py-3 text-2xl font-semibold text-white rounded-full transition duration-300
           bg-gradient-to-r from-purple-600 to-red-500 hover:from-purple-600 hover:to-blue-600 shadow-lg hover:shadow-xl w-[90%] max-w-[300px] text-center"
           >
             APPLY NOW
+          </a>
+        </section>
+        <section id="discord" className="w-full flex justify-center">
+          <a
+            href="https://discord.gg/2bVsYS3SgS"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-franklinGothic relative mt-[20px] px-8 py-3 text-2xl font-semibold text-white rounded-full transition duration-300
+          bg-gradient-to-r from-purple-600 to-red-500 hover:from-purple-600 hover:to-blue-600 shadow-lg hover:shadow-xl w-[90%] max-w-[300px] text-center"
+          >
+            JOIN OUR DISCORD
           </a>
         </section>
         <section
