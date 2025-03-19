@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "HackDay 2025",
-  description: "Developed by HackUTA",
+  description: "March 29th, 2025 - 8:30AM\nDeveloped by HackUTA",
 };
 
 export default function RootLayout({
@@ -26,6 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>HackDay 2025</title>
+        <link rel="icon" href="/Favicon.ico" sizes="any" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased scrollbar-hide overflow-x-hidden`}
