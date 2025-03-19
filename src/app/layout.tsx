@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>HackDay 2025</title>
-        <link rel="icon" href="/Favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased scrollbar-hide overflow-x-hidden`}
