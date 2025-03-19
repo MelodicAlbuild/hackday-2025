@@ -23,10 +23,5 @@
         "id": 5,
         "label": "Where is the event?",
         "content": "The event is being held at the SEIR in rooms 194, 198, 294, and 298!"
-    },
-    {
-        "id": 6,
-        "label": "",
-        "content": ""
     }
 ]
