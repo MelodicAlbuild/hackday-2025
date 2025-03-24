@@ -27,12 +27,11 @@ export default function Home() {
           <div className="hidden md:flex xl:space-x-24 lg:space-x-10 md:space-x-5 justify-center w-full">
             {[
               { name: "Home", href: "#" },
+              { name: "When & Where", href: "#d-time" },
               { name: "Apply", href: "#apply" },
               { name: "The Founder's Arena", href: "#founders-arena" },
               { name: "Schedule", href: "#schedule" },
-              { name: "About Us", href: "#about" },
               { name: "FAQ", href: "#faq" },
-              { name: "Contact", href: "#contact" },
             ].map((item) => (
               <a
                 key={item.name}
@@ -61,12 +60,11 @@ export default function Home() {
           >
             {[
               { name: "Home", href: "#" },
+              { name: "When & Where", href: "#d-time" },
               { name: "Apply", href: "#apply" },
               { name: "The Founder's Arena", href: "#founders-arena" },
               { name: "Schedule", href: "#schedule" },
-              { name: "About Us", href: "#about" },
               { name: "FAQ", href: "#faq" },
-              { name: "Contact", href: "#contact" },
             ].map((item) => (
               <a
                 key={item.name}
@@ -123,6 +121,19 @@ export default function Home() {
       <div className="font-franklinCondensed text-white text-center w-[100vw] mx-auto px-6 sm:px-10 p-[40px] mt-[-150px]">
         {" "}
         <section
+          id="d-time"
+          className="scroll-mt-16 pt-10 mx-auto p-[40px] sm:p-[50px] flex flex-col items-center"
+        >
+          <h2 className="text-5xl font-bold">WHEN AND WHERE</h2>
+        </section>
+        <section id="d-time-content" className="w-full flex justify-center">
+          <p className="text-3xl mt-4 font-normal text-center max-w-[600px]">
+            Saturday March 29th, 2025 - 8:30 AM
+            <br />
+            SIER Building, UTA Campus
+          </p>
+        </section>
+        <section
           id="apply"
           className="scroll-mt-16 pt-10 mx-auto p-[40px] sm:p-[50px] flex flex-col items-center"
         >
@@ -174,16 +185,29 @@ export default function Home() {
             Ambassadors, industry experts can guide and drive our start-ups to
             quicker growth...
           </p>
+          <br />
+          <br />
+          <Image
+            src="/mlh-logo-color.png"
+            alt="MLH Logo"
+            className="mb-4"
+            width={300}
+            height={100}
+          />
+          <h2 className="text-5xl font-bold text-center max-w-[500px]">
+            MAJOR LEAGUE HACKING
+          </h2>
+          <p className="text-2xl mt-4 font-normal text-center max-w-[600px]">
+            Major League Hacking (MLH) is the official student hackathon league.
+            MLH is an engaged and passionate maker community, consisting of the
+            next generation of technology leaders and entrepreneurs.
+          </p>
         </section>
         <section id="schedule" className="scroll-mt-16 pt-10 mx-auto p-[50px]">
           <h2 className="text-5xl font-bold">HackDay Schedule</h2>
           <div className="flex justify-center mt-4">
             <Schedule />
           </div>
-        </section>
-        <section id="about" className="scroll-mt-16 pt-10 mx-auto p-[50px]">
-          <h2 className="text-5xl font-bold">Meet the Team</h2>
-          <p className="text-2xl mt-4">HackUTA Team Information</p>
         </section>
         <section id="faq" className="py-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
