@@ -17,7 +17,13 @@ export default function Schedule() {
             <h1 className="xl:text-3xl lg:text-2xl underline">
               {day["label"]}
             </h1>
-            <h2>Starts At: {day["time-start"]}</h2>
+            <h2>
+              {day["time-start"] != "" ? (
+                <p>Starts At: {day["time-start"]}</p>
+              ) : (
+                <></>
+              )}
+            </h2>
             {day["time-end"] != "" ? <p>Ends At: {day["time-end"]}</p> : <></>}
 
             {day["children"] != undefined ? (
@@ -50,7 +56,13 @@ export default function Schedule() {
               <h1 className="xl:text-3xl lg:text-2xl underline">
                 {day["label"]}
               </h1>
-              <h2>Starts At: {day["time-start"]}</h2>
+              <h2>
+                {day["time-start"] != "" ? (
+                  <p>Starts At: {day["time-start"]}</p>
+                ) : (
+                  <></>
+                )}
+              </h2>
               {day["time-end"] != "" ? (
                 <p>Ends At: {day["time-end"]}</p>
               ) : (

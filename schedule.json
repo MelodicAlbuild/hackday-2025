@@ -46,15 +46,16 @@
     },
     {
         "id": 7,
-        "label": "Hacking Ends",
-        "time-end": "6:00 PM",
+        "label": "Dinner",
+        "time-start": "5:00 PM",
+        "time-end": "",
         "inline": true
     },
     {
         "id": 8,
-        "label": "Dinner",
-        "time-start": "5:00 PM",
-        "time-end": "",
+        "label": "Hacking Ends",
+        "time-start": "",
+        "time-end": "6:00 PM",
         "inline": true
     },
     {
