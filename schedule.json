@@ -34,32 +34,39 @@
                 "time-start": "1:30 PM",
                 "time-end": "",
                 "inline": false
+            },
+            {
+                "id": 6,
+                "label": "ACM Research Workshop",
+                "time-start": "3:00 PM",
+                "time-end": "4:00 PM",
+                "inline": false
             }
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "label": "Hacking Ends",
         "time-start": "",
         "time-end": "6:00 PM",
         "inline": true
     },
     {
-        "id": 7,
+        "id": 8,
         "label": "Dinner",
         "time-start": "5:00 PM",
         "time-end": "",
         "inline": true
     },
     {
-        "id": 8,
+        "id": 9,
         "label": "Judging",
         "time-start": "6:00 PM",
         "time-end": "",
         "inline": true
     },
     {
-        "id": 9,
+        "id": 10,
         "label": "Closing Ceremony",
         "time-start": "7:15 PM",
         "time-end": "",
